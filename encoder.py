@@ -66,7 +66,7 @@ def asciiSub(str):
     #search for current 4 length string in dictionary
         if str1 in DNAencodeddict.keys():
             return i-4
-    #move forward in strong by popping first value from queue and appending new value
+    #move forward in string by popping first value from queue and appending new value
         queue.popleft()
         queue.append(str[i])
     return -1
